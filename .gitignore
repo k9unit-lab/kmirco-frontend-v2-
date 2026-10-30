@@ -1,0 +1,22 @@
+# Dependencies and build
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Test output
+test-results/
+playwright-report/
+
+# IDE
+.idea/
+.vscode/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
